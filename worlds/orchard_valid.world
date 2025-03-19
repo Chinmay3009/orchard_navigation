@@ -1,0 +1,600 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="orchard">
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.25 0.25 0.25 1</background>
+    </scene>
+    <light type="point" name="orchard_point_light">
+      <pose>2 2 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>100</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+    </light>
+    <include>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Sun</uri>
+    </include>
+    <include>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/ground plane</uri>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/COSTAR_HUSKY_SENSOR_CONFIG_2</uri>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_00</name>
+      <pose>-0.1127393780924963 -0.18454049256538818 0 0 0 0.19631386926483366</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_01</name>
+      <pose>3.170790080403418 -0.04445514934627675 0 0 0 0.6625521232042645</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_02</name>
+      <pose>5.910502583355186 0.12725085818200868 0 0 0 -0.22534369195080017</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_03</name>
+      <pose>8.898624196290417 -0.24067229010859303 0 0 0 -0.15016060393669023</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_04</name>
+      <pose>11.996917167150961 0.07139477801951814 0 0 0 0.3470108255662997</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_05</name>
+      <pose>14.973906626102577 -0.31398500518544625 0 0 0 0.15919141586938357</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_06</name>
+      <pose>17.994409941903584 0.5647218529985596 0 0 0 -0.12353203949784922</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_07</name>
+      <pose>21.031146391489518 0.05717997905485089 0 0 0 -0.08087181913405989</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_08</name>
+      <pose>24.062306571405475 0.18525812127441865 0 0 0 -0.32528250389377006</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_09</name>
+      <pose>27.069428465517078 0.033120529674887454 0 0 0 -0.13708821029248897</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_10</name>
+      <pose>0.0312619952255819 8.337084368611407 0 0 0 -0.06743291845709312</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_11</name>
+      <pose>3.0075869251200427 8.314575092594566 0 0 0 0.13812760085624662</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_12</name>
+      <pose>6.121282190033856 8.30913173664459 0 0 0 0.1499754177916179</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_14</name>
+      <pose>12.037235923664786 7.655609264224699 0 0 0 -0.3066045483448058</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_15</name>
+      <pose>15.003052154855972 7.995462641534018 0 0 0 -0.19833432068891743</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_16</name>
+      <pose>18.010964471042346 7.743389669833071 0 0 0 -0.04695176951388541</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_17</name>
+      <pose>21.036602428542928 8.212920010205814 0 0 0 -0.07948315156708116</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_18</name>
+      <pose>24.161705065134257 8.288924150787023 0 0 0 0.11474702409586239</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_19</name>
+      <pose>26.92112489828941 8.592978102258835 0 0 0 0.5823646492468355</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_20</name>
+      <pose>-0.1993374108710128 15.959393865268352 0 0 0 -0.15141067794982074</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_21</name>
+      <pose>3.140725047790646 15.9374164609636 0 0 0 0.07500801812249476</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_22</name>
+      <pose>6.087178796057877 16.058576536837332 0 0 0 0.14651062963386777</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_23</name>
+      <pose>9.060053245208692 16.157189913392514 0 0 0 0.37502654151869397</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_24</name>
+      <pose>11.950804385299303 15.911055414047894 0 0 0 0.08954793925645259</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_25</name>
+      <pose>15.0157198703987 15.999045929909805 0 0 0 -0.4659714169495508</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_26</name>
+      <pose>18.01613443398214 16.16536836564175 0 0 0 0.03580965994397012</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_27</name>
+      <pose>20.915591293156304 15.718321538572589 0 0 0 -0.12788084530260466</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_28</name>
+      <pose>23.869272182006465 15.932507015656078 0 0 0 -0.03808308525741124</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_29</name>
+      <pose>27.09984240729161 15.9694034856064 0 0 0 0.11298739611506224</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_30</name>
+      <pose>0.033075048216724114 23.940878622645606 0 0 0 0.1483135829648283</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_31</name>
+      <pose>2.8854289610442074 23.85441654802832 0 0 0 -0.26941837846367284</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_32</name>
+      <pose>5.911147495063251 23.920487778628583 0 0 0 -0.025939902082090547</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_33</name>
+      <pose>8.91710550703139 24.01083264020229 0 0 0 -0.2514228608624469</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_34</name>
+      <pose>12.18980355448725 24.159421938514498 0 0 0 0.716683500014057</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_35</name>
+      <pose>14.901887164151029 23.810882459357014 0 0 0 -0.5490371527811447</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_36</name>
+      <pose>17.903595486377657 24.250222024721264 0 0 0 0.05613342249297137</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_37</name>
+      <pose>21.00543951614145 23.80420122530961 0 0 0 -0.0957021795079056</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_38</name>
+      <pose>24.06380658159171 23.898782421475687 0 0 0 0.19193097542628812</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_39</name>
+      <pose>27.006522422595676 24.048203336842708 0 0 0 0.05622017349557458</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_40</name>
+      <pose>-0.22203704680101058 31.910022940405295 0 0 0 0.004772391898759603</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_41</name>
+      <pose>2.9509156097476 32.21264234180428 0 0 0 -0.015483000344053966</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_42</name>
+      <pose>5.908723576170026 32.186714897145954 0 0 0 -0.10898733055026912</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_43</name>
+      <pose>9.033636477220966 32.18119845879517 0 0 0 -0.051117448660944295</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_44</name>
+      <pose>12.025874612231235 31.911962347271288 0 0 0 -0.17460411659059508</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_45</name>
+      <pose>15.06874755913764 32.1292729567786 0 0 0 0.2448416664107425</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_46</name>
+      <pose>17.997976901673987 31.958034998867927 0 0 0 0.2901413298236485</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_47</name>
+      <pose>21.0197464981618 32.03243663455617 0 0 0 0.2342871378043176</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_48</name>
+      <pose>23.905621930165832 31.81368200943501 0 0 0 0.41580393105022695</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_49</name>
+      <pose>26.84266183940873 31.956457334911033 0 0 0 -0.0018973994813948724</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_50</name>
+      <pose>-0.03562130442610535 39.87747673511258 0 0 0 0.10522239498670945</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_51</name>
+      <pose>3.1060519414173022 39.952067881907546 0 0 0 -0.0633495249616518</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_52</name>
+      <pose>5.94968745493884 39.767397375044034 0 0 0 0.2797101796560146</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_53</name>
+      <pose>8.977835360878325 39.654456542446546 0 0 0 -0.2511719065432357</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_54</name>
+      <pose>11.945884772787693 39.80391047610507 0 0 0 0.2733010512996043</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_56</name>
+      <pose>18.012066170189897 39.58065421932929 0 0 0 -0.04462494712661188</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_57</name>
+      <pose>20.857072358481616 40.080292362646894 0 0 0 -0.05979918451958065</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_58</name>
+      <pose>23.914559200276447 39.93229138545829 0 0 0 -0.44020747176556374</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_60</name>
+      <pose>-0.09203799930897477 47.61278668030559 0 0 0 -0.39508613324993286</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_61</name>
+      <pose>2.835911249278307 47.87993025762776 0 0 0 -0.0821418497827935</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_62</name>
+      <pose>6.0383987657865985 47.75282025241799 0 0 0 -0.07929637258048192</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_63</name>
+      <pose>9.01101632606428 48.112446799764676 0 0 0 -0.2051028546450068</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_64</name>
+      <pose>11.918601075421257 47.958237592576424 0 0 0 0.04703398472283712</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_65</name>
+      <pose>15.105856900534613 47.73507167701953 0 0 0 -0.19203841139176767</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_66</name>
+      <pose>17.97452484527931 47.98644136342508 0 0 0 0.39346113003577265</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_67</name>
+      <pose>20.89800059551163 47.8444286882034 0 0 0 0.02316022086272436</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_68</name>
+      <pose>23.984439037301115 47.729956350096984 0 0 0 0.022094327766724993</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_69</name>
+      <pose>27.007482298868272 47.77418682922478 0 0 0 0.11299674377678794</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_71</name>
+      <pose>2.98097864404119 55.99426422630821 0 0 0 0.15071051600704255</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_72</name>
+      <pose>5.90938355193986 56.05298227548297 0 0 0 -0.08151836116188128</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_73</name>
+      <pose>8.954754857238658 56.03970587227039 0 0 0 0.6389900245568739</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_75</name>
+      <pose>15.069170723953526 56.02738219473108 0 0 0 0.10467014337642169</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_76</name>
+      <pose>17.94206448901956 56.168950810370944 0 0 0 -0.013214876312810802</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_77</name>
+      <pose>20.842457044709697 55.842948870035194 0 0 0 -0.00279315363717417</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_78</name>
+      <pose>23.92013132703236 55.678198447021686 0 0 0 0.2621681348065267</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_79</name>
+      <pose>27.044845252263258 55.8404197128938 0 0 0 0.206582980882721</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_80</name>
+      <pose>-0.03760218946452976 64.3872213217862 0 0 0 0.13690637178476942</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_81</name>
+      <pose>3.0136866972881173 63.862292572511066 0 0 0 0.08680828129473947</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_82</name>
+      <pose>6.217681670054025 63.78159029559669 0 0 0 0.0502857962446555</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_83</name>
+      <pose>8.920655115163303 63.97747224431437 0 0 0 0.1030636440779286</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_84</name>
+      <pose>11.953180731679357 63.95453361524529 0 0 0 -0.2984793091558978</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_85</name>
+      <pose>14.936134466025377 64.17289976537471 0 0 0 0.33283022801348144</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_86</name>
+      <pose>17.96758044937881 64.09710517357149 0 0 0 -0.02809136708724164</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_87</name>
+      <pose>21.005647022572504 63.68634133913018 0 0 0 0.0429050296185527</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_88</name>
+      <pose>23.78927887752545 63.84787656683565 0 0 0 -0.22752039734249724</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_89</name>
+      <pose>26.99050082821907 63.95237430499211 0 0 0 -0.032839867113382874</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_90</name>
+      <pose>0.018168533425908413 71.80498509109616 0 0 0 0.15022308668200682</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_91</name>
+      <pose>2.947913339182154 71.97793518573923 0 0 0 -0.04414816303456258</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_92</name>
+      <pose>5.706862260873755 71.38969088078802 0 0 0 0.12014536309672141</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_93</name>
+      <pose>8.866606307366371 72.0955550070359 0 0 0 -0.273118703999161</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_94</name>
+      <pose>12.102468384101954 71.82005900964718 0 0 0 0.35339204816684766</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_95</name>
+      <pose>14.885370297670086 72.07535059161918 0 0 0 -0.06769918748446994</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_96</name>
+      <pose>17.767233129629314 71.884621792784 0 0 0 0.19945562339198697</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_97</name>
+      <pose>21.017613420786308 71.99944391941217 0 0 0 0.10260593979822628</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_98</name>
+      <pose>24.19214869734527 72.21104192141208 0 0 0 0.3566130333941723</pose>
+    </include>
+    
+    <include>
+      <uri>model://oak_tree</uri>
+      <name>Tree_99</name>
+      <pose>27.163447369126377 72.06601035909065 0 0 0 0.14656320278773874</pose>
+    </include>
+    
+  </world>
+</sdf>
