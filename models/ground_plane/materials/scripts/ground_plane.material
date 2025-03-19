@@ -1,0 +1,14 @@
+material GroundForest003
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture GroundTireTracks001_COL_3K.jpg.001.jpg
+            }
+        }
+    }
+}
+
